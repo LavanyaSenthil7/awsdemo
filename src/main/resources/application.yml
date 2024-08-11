@@ -1,0 +1,6 @@
+spring:
+  config:
+    import: aws-parameterstore:/config/lotus/
+
+aws:
+  region: "us-east-1"
